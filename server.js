@@ -53,4 +53,4 @@ const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
   console.log(`🚀 WebSocket activo en puerto ${PORT}`);
 });
-fix: usar process.env.PORT para compatibilidad con Render
+
